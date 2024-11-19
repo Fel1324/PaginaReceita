@@ -1,9 +1,11 @@
 *{
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
 :root{
-  font-size: "Alice", sans-serif;
+  font-family: "Alice", sans-serif;
   line-height: 150%;
   color: #573A37;
 }
@@ -24,6 +26,19 @@ body{
 
 img{
   border-radius: 1rem;
+  vertical-align: top;
+}
+
+main{
+  padding: 1.5rem;
+}
+
+section + section{
+  margin-top: 1.5rem;
+}
+
+#about p + p{
+  margin-top: .75rem;
 }
 
 h1{
@@ -37,4 +52,10 @@ h2{
 
 h1, h2{
   color: #291B1A;
+  margin-bottom: .25rem;
+  line-height: 150%;
+}
+
+ul{
+  padding-left: 1.5rem;
 }
