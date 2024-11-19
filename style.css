@@ -17,14 +17,16 @@ body{
 }
 
 #page{
-  width: 50rem;
+  width: 100%;
+  max-width: 50rem;
   padding: 1.5rem;
   background-color: #F0E8C2;
   border-radius: 1.5rem;
   margin: 3rem auto 1.75rem;
 }
 
-img{
+#main-image{
+  width: 100%;
   border-radius: 1rem;
   vertical-align: top;
 }
